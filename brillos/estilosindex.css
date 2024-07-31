@@ -1,0 +1,77 @@
+ .c0657924 {
+     background-color: rgb(209, 193, 88);
+     height: 450px;
+     width: 880px;
+     background-image: url("../pinturas/a1.gif");
+     background-repeat: no-repeat;
+     background-position: center center;
+     background-size: cover;
+     border: 8px white solid;
+     border-radius: 80px;
+
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+ }
+
+ .g39514 {
+     height: 100%;
+     background-size: contain;
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;
+ }
+
+.bur-28 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ .g39514 a {
+     padding: 10px 30px; 
+     text-decoration: none;
+     color: var(--negro);
+     font-size: 15px;
+     border-radius: 20px;
+     transition: all 0.6s ease; 
+
+
+     background-image: linear-gradient(to right top,
+             #ffb4be,
+             #ffb5b6,
+             #ffb7ad,
+             #ffbaa5,
+             #ffbd9e,
+             #ffc098,
+             #ffc492,
+             #ffc88d,
+             #ffcd87,
+             #ffd281,
+             #ffd77b,
+             #ffdd76);
+     animation: brillo 2s;
+     animation-iteration-count: infinite;
+ }
+
+
+ .b41145245 {
+     font-weight: bold; 
+     transition: 0.5s;
+     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+ }
+
+ @keyframes brillo {
+
+     0%,
+     100% {
+         box-shadow: 0 0 10px var(--verde);
+     }
+
+     50% {
+         box-shadow: 0 0 36px var(--verde);
+     }
+ }

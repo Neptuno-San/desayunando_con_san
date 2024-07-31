@@ -1,0 +1,80 @@
+.c6827268 {
+  background-color: rgb(255, 255, 255);
+  height: 450px;
+  width: 880px;
+  background-image: url("../pinturas/salaEstar.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  border: 8px white solid;
+  border-radius: 80px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+
+.b62487-862 {
+  transition: all 0.6s ease;
+  z-index: 1;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.s24889e a {
+  text-decoration: none;
+}
+
+
+.b62487-862 {
+  height: 70px;
+  width: 200px;
+
+
+  display: flex;
+  border-radius: 2.5rem;
+  transition: 0.5s;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2rem;
+  background-image: linear-gradient(to right top,
+      #00e9d8,
+      #1eebd2,
+      #31eecb,
+      #42f0c4,
+      #51f2bc,
+      #5ff3b5,
+      #6cf5af,
+      #79f6a8,
+      #88f7a0,
+      #96f899,
+      #a4f992,
+      #b2f98b);
+  color: blue;
+  animation: blurr2 2s;
+  animation-iteration-count: infinite;
+  outline: none;
+  cursor: pointer;
+  border: 2px white solid;
+}
+
+
+
+@keyframes blurr2 {
+
+  0%,
+  100% {
+    box-shadow: 0 0 10px greenyellow;
+  }
+
+  50% {
+    box-shadow: 0 0 36px rgb(174, 24, 194);
+  }
+}

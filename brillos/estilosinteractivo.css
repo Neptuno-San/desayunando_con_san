@@ -1,0 +1,158 @@
+.c12662 {
+    background-color: rgb(255, 255, 255);
+    height: 450px;
+    width: 880px;
+    background-image: url(../pinturas/fondoInteractivo.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    cursor: url(../pinturas/garrita.png), auto;
+    border: 8px white solid;
+    border-radius: 80px;
+    display: flex;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.c268461541556 {
+    height: 100%;
+}
+
+.o2684684 {
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+.p6966165165 {
+    margin-top: -200px;
+    margin-left: -740px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.h54162268 {
+    margin-top: -210px;
+    margin-left: 500px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.s692686 {
+    margin-top: -260px;
+    margin-left: -370px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.p887946 {
+    margin-top: -300px;
+    margin-left: -180px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.l9464654 {
+    margin-top: -325px;
+    margin-left: -170px;
+    width: 90px;
+    height: 150px;
+    background-image: url(../pinturas/licuadoraNueva0.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.l9464654.active {
+    margin-top: -325px;
+    margin-left: -170px;
+    width: 90px;
+    height: 150px;
+    background-image: url(../pinturas/licuadoraNueva1.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.n122313264 {
+    margin-top: -185px;
+    margin-left: -30px;
+    width: 60px;
+    background-size: cover;
+}
+
+.t999641 {
+    margin-top: -200px;
+    margin-left: -170px;
+    width: 50px;
+    background-size: cover;
+}
+
+.bp698798465 {
+    margin-top: -158px;
+    margin-left: 125px;
+    background-size: contain;
+}
+
+.bs87989789 {
+    margin-top: -158px;
+    margin-left: 55px;
+    background-size: contain;
+}
+
+.p39339399 {
+    margin-top: -185px;
+    margin-left: 90px;
+    background-size: contain;
+}
+
+.a42586 {
+    height: 100%;
+    background-size: contain;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.a42586 a {
+    padding: 15px 25px;
+    margin-top: 250px;
+    text-decoration: none;
+    color: var(--negro);
+    font-size: 15px;
+    border-radius: 20px;
+    transition: all 0.6s ease;
+    z-index: 1;
+    font-family: "Montserrat", sans-serif;
+    background-image: linear-gradient(to right,
+            #db73e91f,
+            #db73e94b,
+            #db73e95e,
+            #db73e979,
+            #db73e993,
+            #db73e9a9,
+            #db73e9b7,
+            #db73e9e0);
+    animation: brillo 2s;
+    animation-iteration-count: infinite;
+}
+
+.b54641 {
+    font-weight: bold;
+    transition: 0.5s;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+@keyframes brillo {
+
+    0%,
+    100% {
+        box-shadow: 0 0 10px blue;
+    }
+
+    50% {
+        box-shadow: 0 0 36px blue;
+    }
+}
