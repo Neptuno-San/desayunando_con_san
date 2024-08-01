@@ -48,7 +48,7 @@
 
 
 /* Media query para tabletas MD */
-@media only screen and (max-width: 551px) and (min-width: 880px) {
+@media only screen and (min-width: 551px) and (max-width: 880px) {
           body {
                     background-color: rgb(149, 81, 227);
                     height: 100vh;
