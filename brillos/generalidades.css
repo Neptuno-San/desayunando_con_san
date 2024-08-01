@@ -29,20 +29,20 @@
                     position: relative;
 
                     transform:
-                              rotate(90deg) scale(0.7, 0.7);
+                              rotate(90deg) scale(0.7, 0.6);
 
                     /* para firefox, safari, chrome, etc. */
                     -webkit-transform:
-                              rotate(90deg) scale(0.7, 0.7);
+                              rotate(90deg) scale(0.7, 0.6);
                     -moz-transform:
-                              rotate(90deg) scale(0.7, 0.7);
+                              rotate(90deg) scale(0.7, 0.6);
 
                     /* para ie */
                     filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0.5, mirror=1);
 
                     /* opera */
                     -o-transform:
-                              rotate(90deg) scale(0.7, 0.7);
+                              rotate(90deg) scale(0.7, 0.6);
           }
 }
 
@@ -57,20 +57,20 @@
                     position: relative;
 
                     transform:
-                              rotate(90deg) scale(0.8, 0.8);
+                              rotate(90deg) scale(0.8, 0.75);
 
                     /* para firefox, safari, chrome, etc. */
                     -webkit-transform:
-                              rotate(90deg) scale(0.8, 0.8);
+                              rotate(90deg) scale(0.8, 0.75);
                     -moz-transform:
-                              rotate(90deg) scale(0.8, 0.8);
+                              rotate(90deg) scale(0.8, 0.75);
 
                     /* para ie */
                     filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0.5, mirror=1);
 
                     /* opera */
                     -o-transform:
-                              rotate(90deg) scale(0.8, 0.8);
+                              rotate(90deg) scale(0.8, 0.75);
           }
 }
 
