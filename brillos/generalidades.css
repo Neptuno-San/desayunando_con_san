@@ -7,15 +7,11 @@
           margin: 0;
           padding: 0;
           font-family: 'Courier New', Courier, monospace;
-
 }
 
 :root {
           --negro: rgb(0, 0, 0);
-
           --verde: greenyellow;
-
-
 }
 
 
@@ -25,24 +21,16 @@
                     background-color: rgb(149, 81, 227);
                     height: 100vh;
                     width: 100vw;
-
                     position: relative;
-
                     transform:
-                              rotate(90deg) scale(0.7, 0.6);
-
-                    /* para firefox, safari, chrome, etc. */
+                              rotate(90deg) scale(0.6, 0.7);
                     -webkit-transform:
-                              rotate(90deg) scale(0.7, 0.6);
+                              rotate(90deg) scale(0.6, 0.7);
                     -moz-transform:
-                              rotate(90deg) scale(0.7, 0.6);
-
-                    /* para ie */
+                              rotate(90deg) scale(0.6, 0.7);
                     filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0.5, mirror=1);
-
-                    /* opera */
                     -o-transform:
-                              rotate(90deg) scale(0.7, 0.6);
+                              rotate(90deg) scale(0.6, 0.7);
           }
 }
 
@@ -53,24 +41,16 @@
                     background-color: rgb(149, 81, 227);
                     height: 100vh;
                     width: 100vw;
-
                     position: relative;
-
                     transform:
-                              rotate(90deg) scale(0.8, 0.75);
-
-                    /* para firefox, safari, chrome, etc. */
+                              rotate(90deg) scale(0.75, 0.8);
                     -webkit-transform:
-                              rotate(90deg) scale(0.8, 0.75);
+                              rotate(90deg)  scale(0.75, 0.8);
                     -moz-transform:
-                              rotate(90deg) scale(0.8, 0.75);
-
-                    /* para ie */
+                              rotate(90deg)  scale(0.75, 0.8);
                     filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0.5, mirror=1);
-
-                    /* opera */
                     -o-transform:
-                              rotate(90deg) scale(0.8, 0.75);
+                              rotate(90deg)  scale(0.75, 0.8);
           }
 }
 
@@ -79,7 +59,6 @@
                     background-color: rgb(149, 81, 227);
                     height: 100vh;
                     width: 100vw;
-
                     position: relative;
           }
 }
