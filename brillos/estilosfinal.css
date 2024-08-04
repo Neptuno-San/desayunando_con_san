@@ -43,29 +43,31 @@
   border-radius: 2.5rem;
   transition: 0.5s;
   font-family: "Montserrat", sans-serif;
-  font-size: 2rem;
-  background-image: linear-gradient(to right top,
-      #00e9d8,
-      #1eebd2,
-      #31eecb,
-      #42f0c4,
-      #51f2bc,
-      #5ff3b5,
-      #6cf5af,
-      #79f6a8,
-      #88f7a0,
-      #96f899,
-      #a4f992,
-      #b2f98b);
-  color: blue;
-  animation: blurr2 2s;
-  animation-iteration-count: infinite;
+  font-size: 2rem; 
+ color: black;
   outline: none;
   cursor: pointer;
   border: 2px white solid;
 }
 
-
+.b62487-862:hover {
+  background-image: linear-gradient(to right top,
+  #00e9d8,
+  #1eebd2,
+  #31eecb,
+  #42f0c4,
+  #51f2bc,
+  #5ff3b5,
+  #6cf5af,
+  #79f6a8,
+  #88f7a0,
+  #96f899,
+  #a4f992,
+  #b2f98b); 
+  color: blue;
+  animation: blurr2 2s;
+  animation-iteration-count: infinite;
+}
 
 @keyframes blurr2 {
 
